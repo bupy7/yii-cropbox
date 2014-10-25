@@ -1,7 +1,7 @@
 <?php
 /**
  * Class file CropboxWidget.
- * Crop image via jQuery after upload image.
+ * Crop image via jQuery before upload image.
  *
  * GitHub repository JS library: https://github.com/hongkhanh/cropbox
  * GitHub repository this widget:
