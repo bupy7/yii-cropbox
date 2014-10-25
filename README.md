@@ -10,7 +10,7 @@ This is widget wrapper and fork of Cropbox https://github.com/hongkhanh/cropbox 
 
 1. Download widget in extensions folder.
 2. Download Yii-image extension from https://bitbucket.org/z_bodya/yii-image and setting it.
-3. Add to your view following code:
+3. Add to your view following code: 
 ```php
 $this->widget('ext.cropbox.CropboxWidget', array(
     'form' => $form, //CActiveForm
@@ -20,8 +20,7 @@ $this->widget('ext.cropbox.CropboxWidget', array(
     'thumbUrl' => //URL to thumbnail of image before crop new image (old image)
     'originalUrl' => //URL to image for display fullscreen after click at thumbnail (old image)
 ));
-```
-4. Add to your model following code:
+```4. Add to your model following code:
 
 Add property file_upload and crop_info:
 ```php
