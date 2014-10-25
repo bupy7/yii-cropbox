@@ -6,13 +6,7 @@
         <?php
         if ($this->thumbUrl && $this->originalUrl)
         {
-            echo TbHtml::link(
-                CHtml::image($this->thumbUrl, '', array('class' => 'img-polaroid')),
-                $this->originalUrl,
-                array(
-                    'rel' => 'shadowbox',
-                )
-            );
+            echo TbHtml::link(CHtml::image($this->thumbUrl, '', array('class' => 'img-polaroid')), $this->originalUrl);
         }
         ?>
     </div>
