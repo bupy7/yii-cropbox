@@ -22,6 +22,7 @@ $this->widget('ext.cropbox.CropboxWidget', array(
 ));
 ```
 4. Add to your model following code:
+
 Add property file_upload and crop_info:
 ```php
 public $file_upload;
