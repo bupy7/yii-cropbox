@@ -2,6 +2,8 @@
 
 This is widget wrapper and fork of Cropbox https://github.com/hongkhanh/cropbox . This widget allows crop image before upload to server and send informations about crop in JSON format.
 
+For Yii2 https://github.com/bupy7/yii2-widget-cropbox
+
 ![Screenshot](screenshot.png)
 
 ###Required
